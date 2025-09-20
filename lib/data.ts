@@ -1,308 +1,339 @@
 import { IProject } from '@/types';
 
 export const GENERAL_INFO = {
-    email: 'tasmirolislam@gmail.com',
+    email: 'didarulislamakand@gmail.com',
 
     emailSubject: "Let's collaborate on a project",
-    emailBody: 'Hi Tajmirul, I am reaching out to you because...',
+    emailBody: 'Hi Didarul, I am reaching out to you because...',
 
-    oldPortfolio: 'https://www.legacy.me.toinfinite.dev',
-    upworkProfile: 'https://www.upwork.com/freelancers/tajmirul',
+    upworkProfile: 'https://www.upwork.com/freelancers/~01bf303277746d07f7',
+    whatsapp: 'https://wa.me/+8801777919189',
 };
 
 export const SOCIAL_LINKS = [
-    { name: 'github', url: 'https://github.com/Tajmirul' },
-    { name: 'linkedin', url: 'https://www.linkedin.com/in/tajmirul' },
-    { name: 'facebook', url: 'https://www.facebook.com/tajmirul.2000' },
-    { name: 'Old Version', url: GENERAL_INFO.oldPortfolio },
+    // { name: 'github', url: 'https://github.com/Tajmirul' },
+    { name: 'linkedin', url: 'https://www.linkedin.com/in/didarul-islam-akand-a6a83424b/' },
+    { name: 'facebook', url: 'https://www.facebook.com/akand.didarul.islam' },
 ];
 
 export const MY_STACK = {
     frontend: [
         {
-            name: 'JavaScript',
-            icon: '/logo/js.png',
+            name: 'HTML',
+            icon: '/logo/html.webp',
         },
         {
-            name: 'TypeScript',
-            icon: '/logo/ts.png',
+            name: 'CSS',
+            icon: '/logo/css.webp',
+        },
+        {
+            name: 'Bootstrap',
+            icon: '/logo/bootstrap.svg',
+        },
+        {
+            name: 'jQuery',
+            icon: '/logo/jquery.webp',
+        },
+        {
+            name: 'JavaScript',
+            icon: '/logo/js.png',
         },
         {
             name: 'React',
             icon: '/logo/react.png',
         },
         {
-            name: 'Next.js',
-            icon: '/logo/next.png',
+            name: 'Flutter',
+            icon: '/logo/flutter.webp',
         },
-        {
-            name: 'Redux',
-            icon: '/logo/redux.png',
-        },
-        {
-            name: 'Tailwind CSS',
-            icon: '/logo/tailwind.png',
-        },
-        {
-            name: 'GSAP',
-            icon: '/logo/gsap.png',
-        },
-        {
-            name: 'Framer Motion',
-            icon: '/logo/framer-motion.png',
-        },
-        {
-            name: 'Sass',
-            icon: '/logo/sass.png',
-        },
-        {
-            name: 'Bootstrap',
-            icon: '/logo/bootstrap.svg',
-        },
+       
+        
     ],
     backend: [
         {
-            name: 'Node.js',
-            icon: '/logo/node.png',
+            name: 'Laravel',
+            icon: '/logo/laravel.jpg',
         },
+       
         {
-            name: 'NestJS',
-            icon: '/logo/nest.svg',
+            name: 'PHP',
+            icon: '/logo/php.png',
         },
-        {
-            name: 'Express.js',
-            icon: '/logo/express.png',
-        },
+       
+        
     ],
     database: [
         {
             name: 'MySQL',
             icon: '/logo/mysql.svg',
         },
-        {
-            name: 'PostgreSQL',
-            icon: '/logo/postgreSQL.png',
-        },
-        {
-            name: 'MongoDB',
-            icon: '/logo/mongodb.svg',
-        },
-        {
-            name: 'Prisma',
-            icon: '/logo/prisma.png',
-        },
     ],
-    tools: [
+    "payment method": [
+        {
+            name: 'Bkash',
+            icon: '/logo/bKash-Logo.png',
+        },
+        {
+            name: 'SSLCommerz',
+            icon: '/logo/SSLCommerz.png',
+        },
+        {
+            name: 'ShurjoPay',
+            icon: '/logo/ShurjoPay.jpeg',
+        },
+        {
+            name: 'aamarpay',
+            icon: '/logo/aamarpay.png',
+        },
+        {
+            name: 'UddoktaPay',
+            icon: '/logo/UddoktaPay.png',
+        },
+        {
+            name: 'Nagad',
+            icon: '/logo/Nagad-Logo.png',
+        },
+        {
+            name: 'Paypal',
+            icon: '/logo/Paypal.png',
+        },
+        {
+            name: 'Stripe',
+            icon: '/logo/Stripe.jpeg',
+        },
+        
+    ],
+    others: [
         {
             name: 'Git',
             icon: '/logo/git.png',
         },
         {
-            name: 'Docker',
-            icon: '/logo/docker.svg',
+            name: 'cPanel',
+            icon: '/logo/cPanel.png',
         },
         {
-            name: 'AWS',
-            icon: '/logo/aws.png',
+            name: 'REST API Integration',
+            icon: '/logo/rest-api-icon.png',
         },
+        {
+            name: 'API Development',
+            icon: '/logo/api.png',
+        },
+        {
+            name: 'SEO Optimization',
+            icon: '/logo/seo.png',
+        },
+        
     ],
 };
 
 export const PROJECTS: IProject[] = [
     {
-        title: 'MTI Electronics',
-        slug: 'mti-electronics',
-        liveUrl: 'https://mti-electronics.vercel.app/',
+        title: 'BIMSTEC',
+        slug: 'bimstec',
+        liveUrl: 'https://bimstec.org/',
         year: 2025,
         description: `
-      A complete agency portfolio platform built for MTI Electronics to showcase their services, blog content, and product offerings. <br/> <br/>
+      The Bay of Bengal Initiative for Multi-Sectoral Technological and Economic Cooperation is an international organization of seven South Asian and Southeast Asian nations, housing 1.73 billion people and having a combined gross domestic product of US$5.2 trillion.. <br/> <br/>
       
       Key Features:<br/>
       <ul>
-        <li>🛠️ Service Display System: Interactive service showcase with synchronized sliders</li>
-        <li>✍️ Blog Management: SEO-friendly blog with categorization and search</li>
-        <li>🛒 Product Catalog: Organized product display with filtering capabilities</li>
-        <li>📱 Fully Responsive: Optimized for all device sizes</li>
-        <li>⚡ Fast Performance: Optimized Next.js frontend with ISR (Incremental Static Regeneration)</li>
-      </ul><br/>
+        <li>🛠️ Service Management: Dynamic service listing with interactive display</li>
+        <li>✍️ Blog Module: SEO-friendly blog with category & search functionality</li>
+        <li>📱 Fully Responsive: Optimized UI for all screen sizes</li>
+        <li>⚡ Fast Performance: Database optimization & caching for better speed</li>
+        </ul><br/>
       
       Technical Highlights:
-      <ul>
-        <li>Implemented complex slider synchronization logic using Swiper.js</li>
-        <li>Customized Payload CMS admin panel for intuitive content management</li>
-        <li>Developed reusable UI components with shadcn for design consistency</li>
-        <li>Configured efficient data fetching strategies in Next.js</li>
-      </ul>
+        <ul>
+        <li>Developed RESTful APIs & business logic using Laravel</li>
+        <li>Integrated AJAX & Yajra DataTables for dynamic data rendering</li>
+        <li>Created reusable Blade components for UI consistency</li>
+        <li>Configured deployment pipeline on VPS/cPanel for smooth release</li>
+        </ul>
       `,
         role: `
-      Full-Stack Developer <br/>
+      Backend Developer <br/>
       Owned the entire development lifecycle:
-      <ul>
-        <li>✅ Backend: Configured Payload CMS with custom collections for services, blogs, and products</li>
-        <li>🎨 Frontend: Built all UI components using Tailwind CSS and shadcn</li>
-        <li>🔄 State Management: Implemented client-side data fetching and caching</li>
-        <li>🖥️ CMS Customization: Created admin interfaces for content editors</li>
-        <li>🚀 Deployment: Set up CI/CD pipeline for Vercel hosting</li>
-        <li>🧩 Third-Party Integration: Added Swiper.js for interactive sliders</li>
-      </ul>
+        <ul>
+        <li>✅ Backend: Developed Admin Panel, RESTful APIs and business logic using Laravel</li>
+        <li>🎨 Frontend: Implemented responsive UI with Blade, Tailwind CSS, and Bootstrap</li>
+        <li>🔄 State Management: Integrated AJAX & jQuery for dynamic data handling</li>
+        <li>🚀 Deployment: Configured and deployed the application on VPS/cPanel</li>
+        </ul>
       `,
         techStack: [
-            'Next.js',
-            'Payload CMS',
-            'Tailwind CSS',
-            'shadcn',
-            'Swiper.js',
-            'React Hook Form',
-            'Vercel',
+            'HTML',
+            'Laravel',
+            'MySql',
         ],
-        thumbnail: '/projects/thumbnail/mti-electronics.webp',
-        longThumbnail: '/projects/long/mti-electronics.webp',
+        thumbnail: '/projects/thumbnail/bimstec.png',
+        longThumbnail: '/projects/long/bimstec.png',
         images: [
-            '/projects/images/mti-electronics-1.webp',
-            '/projects/images/mti-electronics-2.webp',
+            '/projects/images/bimstec.png',
         ],
     },
     {
-        title: 'Epikcart',
-        slug: 'epikcart',
+        title: 'Binary Logic',
+        slug: 'binarylogic',
         techStack: [
-            'React',
-            'Redux',
-            'React i18n',
-            'Tailwind CSS',
-            'Framer Motion',
-            'debouncing',
-            'Api Integration',
+            'HTML',
+            'Laravel',
+            'MySql',
         ],
-        thumbnail: '/projects/thumbnail/epikcart.jpg',
-        longThumbnail: '/projects/long/epikcart.jpg',
+        thumbnail: '/projects/thumbnail/binarylogic.png',
+        longThumbnail: '/projects/long/binarylogic.png',
         images: [
-            '/projects/images/epikcart-1.png',
-            '/projects/images/epikcart-2.png',
-            '/projects/images/epikcart-3.png',
-            '/projects/images/epikcart-4.png',
-            '/projects/images/epikcart-5.png',
+            '/projects/images/binarylogic.png',
         ],
-        liveUrl: 'https://demo.epikcart.siphertech.com/',
+        liveUrl: 'https://www.binarylogic.com.bd/',
         year: 2023,
-        description: `Epikcart is a feature-rich, scalable e-commerce platform tailored for large businesses. It features dynamic product filtering, multi-language support with RTL, advanced inventory management, order tracking, and refund systems, offering a comprehensive solution for multi-vendor operations.`,
-        role: `As the frontend developer in a team of five, I: <br/>
-        - Built the frontend from scratch using React, Redux, RTK Query, and Tailwind CSS.<br/>
-        - Developed dynamic filtering logic for the product search page with admin-configurable parameters.<br/>
-        - Integrated multi-language support with React i18n, including RTL handling.<br/>
-        - Delivered a responsive, user-friendly interface in collaboration with the UI/UX designer.`,
+        description: `Binary Logic is a computer store offering custom-built PCs, components, and accessories for high-end gaming, office, 
+        graphics design, video editing, and servers. They feature competitive prices, prompt delivery, and reliable service.<br><br/>
+        Key Features:<br/>
+      <ul>
+        <li>🛠️ Service Management: Dynamic service listing with interactive display</li>
+        <li>✍️ Blog Module: SEO-friendly blog with category & search functionality</li>
+        <li>🛒 Product Catalog: Structured product showcase with filters & sorting</li>
+        <li>📱 Fully Responsive: Optimized UI for all screen sizes</li>
+        <li>⚡ Fast Performance: Database optimization & caching for better speed</li>
+        </ul><br/>
+        `,
+        role: `
+      Backend Developer <br/>
+      Owned the entire development lifecycle:
+        <ul>
+        <li>✅ Backend: Developed Admin Panel, RESTful APIs and business logic using Laravel</li>
+        <li>🎨 Frontend: Implemented responsive UI with Blade, Tailwind CSS, and Bootstrap</li>
+        <li>🔄 State Management: Integrated AJAX & jQuery for dynamic data handling</li>
+        <li>🚀 Deployment: Configured and deployed the application on VPS/cPanel</li>
+        </ul>
+      `,
     },
     {
-        title: 'Resume Roaster',
-        slug: 'resume-roaster',
+        title: 'Bondhu Style',
+        slug: 'bondhustyle',
         techStack: [
-            'GPT-4',
-            'Next.js',
-            'Postgressql',
-            'Prisma',
-            'Tailwind CSS',
+            'HTML',
+            'Laravel',
+            'MySql',
         ],
-        thumbnail: '/projects/thumbnail/resume-roaster.jpg',
-        longThumbnail: '/projects/long/resume-roaster.jpg',
+        thumbnail: '/projects/thumbnail/bondhustyle.png',
+        longThumbnail: '/projects/long/bondhustyle.png',
         images: [
-            '/projects/images/resume-roaster-1.png',
-            '/projects/images/resume-roaster-2.png',
-            '/projects/images/resume-roaster-3.png',
+            '/projects/images/bondhustyle.png',
         ],
-        liveUrl: 'https://resume-roaster.vercel.app/',
+        liveUrl: 'https://bondhustyle.com/',
         year: 2023,
         description:
-            'Resume Roaster is a web application designed to provide tailored resume feedback and professional writing services. Built with Next.js, PostgreSQL, Prisma, and Tailwind CSS, it integrates GPT-4 for AI-powered recommendations. The platform also includes peer-to-peer reviews with a points-based system, fostering a collaborative and engaging experience. Targeting freshers, experienced professionals, and programmers, it helps optimize resumes for job-specific success.',
-        role: `As the sole developer and business owner, I:<br/>
-        - Designed and developed the platform end-to-end using Next.js, PostgreSQL, Prisma, and Tailwind CSS.<br/>
-        - Integrated GPT-4 for AI-driven feedback and insights.<br/>
-        - Implemented complex SQL queries, including one to identify the top two resumes based on user points.`,
+            `BondhuStyle is a fashion e-commerce brand offering trendy and affordable clothing, footwear, and accessories for men, women, and kids. 
+            The platform features a wide range of stylish collections, seasonal discounts, and new arrivals, making it a go-to destination for everyday fashion needs in Bangladesh. <br> <br>
+        Technical Highlights:
+        <ul>
+        <li>🔐 Integrated Fraud Checker API for transaction security and fraud prevention</li>
+        <li>🖥️ Developed reusable Blade components for modular UI design</li>
+        <li>💳 Configured payment gateways: bKash, Nagad, SSLCommerz, PayPal, Stripe</li>
+        <li>⚡ Applied database optimization & caching for faster performance</li>
+        <li>📈 Implemented SEO best practices to improve organic traffic</li>
+        </ul>
+
+            `,
+        role: `
+        Backend Developer <br/>
+        Owned the entire development lifecycle:
+        <ul>
+            <li>✅ Backend: Developed Admin Panel, RESTful APIs, and business logic using Laravel</li>
+            <li>🎨 Frontend: Built responsive UI with HTML, CSS, Bootstrap, Tailwind CSS, and jQuery</li>
+            <li>🔄 State Management: Integrated AJAX & jQuery for dynamic content updates</li>
+            <li>💳 Payment Integration: Connected local (bKash, Nagad, SSLCommerz) and international (PayPal, Stripe) gateways</li>
+            <li>🔐 Security: Integrated Fraud Checker API for safe and verified transactions</li>
+            <li>📈 SEO Optimization: Implemented metadata, clean URLs, and best practices for search ranking</li>
+            <li>🚀 Deployment: Configured and deployed the application on VPS/cPanel</li>
+        </ul>
+        `,
     },
     {
-        title: 'Real Estate',
-        slug: 'property-pro',
+        title: 'Education System',
+        slug: 'itacademy24',
         techStack: [
-            'React.js',
-            'Redux',
-            'Tailwind CSS',
-            'React i18n',
-            'Framer Motion',
+            'HTML',
+            'Laravel',
+            'MySql',
         ],
-        thumbnail: '/projects/thumbnail/property-pro.jpg',
-        longThumbnail: '/projects/long/property-pro.jpg',
+        thumbnail: '/projects/thumbnail/itacademy24.png',
+        longThumbnail: '/projects/long/itacademy24.png',
         images: [
-            '/projects/images/property-pro-1.png',
-            '/projects/images/property-pro-2.png',
-            '/projects/images/property-pro-3.png',
+            '/projects/images/itacademy24.png',
         ],
-        liveUrl: 'https://demo.propertypro.siphertech.com/',
+        liveUrl: 'https://itacademy24.com/',
         year: 2023,
         description:
-            'PropertyPro is a real estate management platform offering users a seamless experience to explore, manage, and view property listings. The application emphasizes accessibility and responsive design, ensuring a smooth interface across devices.',
-        role: `As the frontend developer, I:<br/>
-        - Built the frontend using React, Redux, RTK Query, Framer Motion, and Tailwind CSS.<br/>
-        - Integrated dynamic state management for efficient handling of property data.<br/>
-        - Implemented multi-language support with React i18n to cater to diverse audiences.<br/>
-        - Enhanced user interaction with animations and transitions using Framer Motion.`,
+            'itacademy24 is an online learning platform where users can purchase courses, attend exams, and earn certificates. The site also supports secure payment integration for a smooth learning experience.',
+        role: `
+        Backend Developer <br/>
+        Owned the entire development lifecycle:
+            <ul>
+            <li>✅ Backend: Developed Admin Panel, RESTful APIs and business logic using Laravel</li>
+            <li>🎨 Frontend: Implemented responsive UI with Blade, Tailwind CSS, and Bootstrap</li>
+            <li>🔄 State Management: Integrated AJAX & jQuery for dynamic data handling</li>
+            <li>🚀 Deployment: Configured and deployed the application on VPS/cPanel</li>
+            </ul>
+        `,
     },
     {
-        title: 'Consulting Finance',
-        slug: 'crenotive',
-        techStack: ['HTML', 'CSS & SCSS', 'Javascript', 'Bootstrap'],
-        thumbnail: '/projects/thumbnail/consulting-finance.jpg',
-        longThumbnail: '/projects/long/consulting-finance.jpg',
-        images: [
-            '/projects/images/consulting-finance-1.png',
-            '/projects/images/consulting-finance-2.png',
-            '/projects/images/consulting-finance-3.png',
+        title: 'Newspaper',
+        slug: 'bartabela',
+        techStack: [
+            'HTML',
+            'Laravel',
+            'MySql',
         ],
-        sourceCode: 'https://github.com/Tajmirul/crenotive',
-        liveUrl: 'https://crenotive.netlify.app/',
+        thumbnail: '/projects/thumbnail/bartabela.png',
+        longThumbnail: '/projects/long/bartabela.png',
+        images: [
+            '/projects/images/bartabela.png',
+        ],
+        liveUrl: 'https://www.bartabela.com/',
         year: 2023,
         description:
-            'I developed Crenotive, a portfolio website using Html, SASS, and jQuery to showcase services and expertise. The design focuses on responsive user experience and effective presentation of professional achievements.',
+            'This newspaper platform delivers the latest news, articles, and updates across categories like politics, sports, entertainment, and technology. Users can read, search, and stay informed with real-time news, all on a responsive and user-friendly interface.',
         role: ``,
     },
     {
-        title: 'devLinks',
-        slug: 'devLinks',
-        techStack: ['Next.js', 'Formik', 'Drag & Drop', 'Tailwind CSS'],
-        thumbnail: '/projects/thumbnail/devLinks.jpg',
-        longThumbnail: '/projects/long/devLinks.jpg',
-        images: [
-            '/projects/images/devLinks-1.png',
-            '/projects/images/devLinks-2.png',
-            '/projects/images/devLinks-3.png',
+        title: 'Air Ticket Booking',
+        slug: 'greentourandtravels',
+        techStack: [
+            'HTML',
+            'Laravel',
+            'MySql',
         ],
-        sourceCode: 'https://github.com/Tajmirul/devsLink',
-        liveUrl: 'https://devlinks-demo.vercel.app/auth/signin',
+        thumbnail: '/projects/thumbnail/greentourandtravels.png',
+        longThumbnail: '/projects/long/greentourandtravels.png',
+        images: [
+            '/projects/images/greentourandtravels.png',
+        ],
+        liveUrl: 'https://greentourandtravels.com/',
         year: 2023,
-        description: `One of the most challenging projects in Frontend Mentor.<br/><br/>
-
-            I developed a LinkSharing App as part of the Frontend Mentor challenge, utilizing React, Redux, and Tailwind CSS to create a responsive and feature-rich platform. The app allows users to share, save, and explore links, with a focus on intuitive design and smooth navigation. Advanced state management ensures efficient data handling for user interactions.`,
+        description: `Green Tour and Travels is an online travel platform where users can book air tickets and receive instant invoices. The site offers a seamless booking experience with secure payment integration and responsive design for all devices.`,
         role: ``,
     },
 ];
 
 export const MY_EXPERIENCE = [
     {
-        title: 'Software Engineer (Frontend)',
-        company: 'Strativ AB',
-        duration: 'Dec 2024 - Present',
+        title: 'Software Engineer (Backend)',
+        company: 'BranexIT',
+        duration: 'May 2023 - March 2025',
     },
     {
-        title: 'Frontend Developer',
-        company: 'Epikcoders',
-        duration: 'Oct 2023 - Nov 2024',
+        title: 'Software Developer',
+        company: 'Navieasoft Ltd',
+        duration: 'Dec 2021 - April 2023',
     },
     {
-        title: 'Frontend Engineer',
-        company: 'Anchorblock Technology',
-        duration: 'Oct 2022 - Sep 2023',
-    },
-    {
-        title: 'Frontend Developer (Part-time)',
-        company: 'Branex IT',
-        duration: 'Jan 2022 - Oct 2022',
+        title: 'Laravel Developer',
+        company: 'Spellbit Limited',
+        duration: 'Jan 2021 - Sep 2021',
     },
 ];
